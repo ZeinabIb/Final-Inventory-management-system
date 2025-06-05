@@ -8,25 +8,27 @@ Manage inventory items by adding, updating, deleting, and filtering through a si
 ## Features
 
 ### Backend (FastAPI)
-- Add new inventory items with optional AI-generated descriptions  
-- Update and delete items by UUID  
-- Search items by name, category, status, quantity, and description content  
-- In-memory store (for demo/testing purposes)  
+
+- Add new inventory items with optional AI-generated descriptions
+- Update and delete items by UUID
+- Search items by name, category, status, quantity, and description content
+- In-memory store (for demo/testing purposes)
 - REST API with JSON responses
 
 ### Frontend (Streamlit)
-- Add new inventory items via form  
-- View and filter inventory items live  
+
+- Add new inventory items via form
+- View and filter inventory items live
 - Communicates with backend via HTTP requests
 
 ---
 
 ## Tech Stack
 
-- Backend: [FastAPI](https://fastapi.tiangolo.com/)  
-- Frontend: [Streamlit](https://streamlit.io/)  
-- Python data models with Pydantic  
-- UUIDs for item identifiers  
+- Backend: [FastAPI](https://fastapi.tiangolo.com/)
+- Frontend: [Streamlit](https://streamlit.io/)
+- Python data models with Pydantic
+- UUIDs for item identifiers
 - OpenAI GPT API for description generation
 
 ---
@@ -35,8 +37,9 @@ Manage inventory items by adding, updating, deleting, and filtering through a si
 
 ### Prerequisites
 
-- Python 3.7 or newer  
+- Python 3.7 or newer
 - [pip](https://pip.pypa.io/en/stable/installation/)
+- pip install -r requirements.txt
 
 ### Installation
 
@@ -45,6 +48,7 @@ Manage inventory items by adding, updating, deleting, and filtering through a si
    ```bash
    git clone <repo_url>
    cd <repo_folder>
+   ```
 
 ## Setup Instructions
 
@@ -67,3 +71,4 @@ Frontend Streamlit App
 
 streamlit run app.py
 The app will open in your browser at: http://localhost:8501
+```
