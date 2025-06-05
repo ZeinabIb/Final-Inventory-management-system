@@ -29,7 +29,7 @@ Manage inventory items by adding, updating, deleting, and filtering through a si
 - Frontend: [Streamlit](https://streamlit.io/)
 - Python data models with Pydantic
 - UUIDs for item identifiers
-- OpenAI GPT API for description generation
+- OpenAI GPT API for description generation and adding items NLP
 
 ---
 
@@ -59,8 +59,9 @@ python -m venv venv
 source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows
 
+### 2. Create .env file and add the api key of openai
 
-pip install fastapi uvicorn streamlit requests pydantic openai python-dotenv
+pip install fastapi uvicorn streamlit requests pydantic openai python-dotenv or pip install -r requirements.txt
 
 Backend API
 
